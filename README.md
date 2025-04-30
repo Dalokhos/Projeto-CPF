@@ -18,8 +18,8 @@ Validador de CPF
 Armazenar e exibir o CPF formatado utilizando variáveis.
 
 ### Tarefas
-- [ ] Criar **quatro variáveis inteiras**.
-- [ ] Atribuir valores a essas variáveis (valores fixos).
-- [ ] Exibir o CPF formatado a partir dessas variáveis.
+- [X] Criar **quatro variáveis inteiras**.
+- [X] Atribuir valores a essas variáveis (valores fixos).
+- [?] Exibir o CPF formatado a partir dessas variáveis.
 
 

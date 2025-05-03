@@ -1,15 +1,22 @@
 programa {
   funcao inicio() {
-    escreva ("111.444.777-35")
+     inteiro n1, n2, n3, n4 
 
+    escreva ("Digite cada parte de seu CPF : ")
+     leia (n1)
+     limpa ()
+    escreva ("Digite cada parte de seu CPF : ")
+     leia (n2)
+     limpa ()
+    escreva ("Digite cada parte de seu CPF : ")
+     leia (n3)
+     limpa ()
 
+    escreva ("Digite cada parte de seu CPF : ")
+     leia (n4)
+     limpa ()
 
-  inteiro num1, num2, num3, num4
-    num1=111
-    num2=444
-    num3=777
-    num4=35
+    escreva ("O CPF formatado é: ", n1,".", n2,".", n3,"-", n4)
 
-    escreva ("CPF formatado: ",num1,".", num2,".", num3, "-", num4)
   }
 }

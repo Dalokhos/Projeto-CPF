@@ -20,6 +20,15 @@ Armazenar e exibir o CPF formatado utilizando variáveis.
 ### Tarefas
 - [X] Criar **quatro variáveis inteiras**.
 - [X] Atribuir valores a essas variáveis (valores fixos).
-- [?] Exibir o CPF formatado a partir dessas variáveis.
+- [X] Exibir o CPF formatado a partir dessas variáveis.
+
+## Etapa 3: Entrada de Dados
+
+### Objetivo
+Permitir a entrada de dados pelo usuário e exibir o CPF formatado.
+
+### Tarefas
+- [X] Ler valores digitados para **quatro variáveis inteiras**.
+- [X] Exibir o CPF formatado a partir dos valores lidos.
 
 

@@ -48,8 +48,8 @@ Receba um CPF completo (com pontos e traço) e mostre ele separado em 2 partes.
 ### Tarefas
 - [X] Coloque o nome dos integrantes estar na parte inicial do README.md.
 - [X] Todos os integrantes devem ter suas contas no GitHub.
-- [ ] Leia um CPF completo do usuário (`XXX.XXX.XXX-YY`).
-- [ ] Separe os 9 números do CPF dos 2 Dígitos Verificadores em duas variáveis.
-- [ ] Exiba as duas variáveis separadamente.
+- [X] Leia um CPF completo do usuário (`XXX.XXX.XXX-YY`).
+- [X] Separe os 9 números do CPF dos 2 Dígitos Verificadores em duas variáveis.
+- [X] Exiba as duas variáveis separadamente.
 
 

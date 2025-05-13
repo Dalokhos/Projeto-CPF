@@ -1,45 +1,27 @@
 programa {
+  inclua biblioteca Texto
   funcao inicio() {
 
-     inteiro n1, n2, n3, n4
+  cadeia cpf, base, digitos
+  inteiro i
 
-    escreva ("Digite o seu CPF:")
-     leia (n1)
-      limpa ()
+  escreva("Digite seu CPF (somente números): ")
+  leia(cpf)
 
-    enquanto (n1 <= 0) {
-      escreva ("\nO valor é menor que 0 ")
-      interrompa ()
-    }
+  base = " "
+  digitos = " "
 
-    escreva ("Digite o seu CPF:")
-     leia (n2)
-      limpa ()
+   para (i = 0; i < 9; i++) {
+    base = base + Texto.obter_caracter(cpf, i)
+  }
 
-    enquanto (n2 <= 0) {
-      escreva ("\nO valor é menor que 0 ")
-      interrompa ()
-    }
+   para (i = 9; i < 11; i++) {
+    digitos = digitos + Texto.obter_caracter(cpf, i)
+  }
 
-    escreva ("Digite o seu CPF:")
-     leia (n3)
-      limpa ()
-
-    enquanto (n3 <= 0) {
-      escreva ("\nO valor é menor que 0 ")
-      interrompa ()
-    }
-
-    escreva ("Digite o seu CPF:")
-     leia (n4)
-      limpa ()
-
-    enquanto (n4 <= 0) {
-      escreva ("\nO valor é menor que 0 ")
-      interrompa ()
-    }
-
-     escreva ("O CPF formatado é: ", n1, ".", n2, ".", n3, "-", n4)
+  escreva("\nBase do CPF: ", base)
+  escreva("\nDígitos verificadores: ", digitos)
 
   }
 }
+

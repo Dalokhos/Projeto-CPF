@@ -1,5 +1,6 @@
 # Projeto-CPF
 Validador de CPF
+
 Integrantes: Solano, Mateus
 
 
@@ -58,7 +59,7 @@ Receba um CPF completo (com pontos e traço) e mostre ele separado em 2 partes.
 Receba um CPF completo e valide ele.
 
 ### Tarefas
-- [ ] Leia um CPF completo do usuário.
-- [ ] Valide para que o CPF esteja nos formatos `XXX.XXX.XXX-YY` ou `XXXXXXXXXYY`.
+- [X] Leia um CPF completo do usuário.
+- [X] Valide para que o CPF esteja nos formatos `XXX.XXX.XXX-YY` ou `XXXXXXXXXYY`.
 
 

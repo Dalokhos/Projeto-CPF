@@ -111,4 +111,84 @@ if len(cpf) == 9 and cpf.isdigit():
 else:
     print("CPF inválido. Digite exatamente 9 números.")
 
-##----Etapa 8, nao aguento mais
+##----Etapa 8, nao aguento mais 
+
+cpf = input("Digite os 9 primeiros dígitos do CPF: ")
+
+if len(cpf) == 10 and cpf.isdigit():
+    soma = 0
+    for i in range(10):
+        soma += int(cpf[i]) * (11 - i)
+
+    resto = soma % 11
+
+    if resto < 2:
+        digito_verificador = 0
+
+    else:
+        digito_verificador = 11 - resto
+
+
+    print(f"Primeiro dígito verificador: {digito_verificador}")
+else:
+    print("CPF inválido. Digite exatamente 9 números.")
+
+##---- Etapa??? a junção da etapa 6,7 e 8 abaixo
+
+cpf = input("Digite o CPF: ")
+
+
+if len(cpf) == 14:
+    if cpf[3] == '.' and cpf[7] == '.' and cpf[11] == '-':
+        print("CPF válido\n")
+        
+    else:
+        print("CPF inválido\n")
+
+
+elif len(cpf) == 11 and cpf.isdigit():
+    print("CPF válido\n")
+
+else:
+    print("CPF inválido\n")
+
+cpf = input("Digite os 9 primeiros dígitos do CPF: ")
+
+if len(cpf) == 9 and cpf.isdigit():
+    soma = 0
+    for i in range(9):
+        soma += int(cpf[i]) * (10 - i)
+
+    resto = soma % 11
+
+    if resto < 2:
+        digito_verificador = 0
+
+    else:
+        digito_verificador = 11 - resto
+
+
+    print(f"Primeiro dígito verificador: {digito_verificador}")
+else:
+    print("CPF inválido. Digite exatamente 9 números.")
+
+
+cpf = input("Digite os 9 primeiros dígitos do CPF: ")
+
+if len(cpf) == 10 and cpf.isdigit():
+    soma = 0
+    for i in range(10):
+        soma += int(cpf[i]) * (11 - i)
+
+    resto = soma % 11
+
+    if resto < 2:
+        digito_verificador = 0
+
+    else:
+        digito_verificador = 11 - resto
+
+
+    print(f"Primeiro dígito verificador: {digito_verificador}")
+else:
+    print("CPF inválido. Digite exatamente 9 números.")

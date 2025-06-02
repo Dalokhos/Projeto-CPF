@@ -1,0 +1,114 @@
+##----Etapa 1
+print("111.444.777-35")
+
+##----Etapa 2
+
+print("11144477735")
+cpf1 = 111
+cpf2 = 444
+cpf3 = 777
+cpf4 = 35
+
+print("O cpf formatado:", cpf1,".", cpf2,".",cpf3,"-",cpf4)
+
+##----Etapa 3
+
+print("Digite cada parte seu cpf: ")
+n1= input()
+
+print("Digite cada parte seu cpf: ")
+n2= input()
+
+print("Digite cada parte seu cpf: ")
+n3= input()
+
+print("Digite cada parte seu cpf: ")
+n4= input()
+
+print("O cpf formatado é ", n1,".", n2,".", n3,"-", n4)
+
+##----Etapa 4
+
+n1 = int(input("Digite a primeira parte do seu CPF: "))
+
+while n1 <= 0:
+    print("O valor é menor ou igual a 0")
+    exit()
+
+
+n2 = int(input("Digite a primeira parte do seu CPF: "))
+while n2 <= 0:
+    print("O valor é menor ou igual a 0")
+    exit()
+
+n3 = int(input("Digite a primeira parte do seu CPF: "))
+while n3 <= 0:
+    print("O valor é menor ou igual a 0")
+    exit()
+    
+n4 = int(input("Digite a primeira parte do seu CPF: "))
+while n4 <= 0:
+    print("O valor é menor ou igual a 0")
+    exit()
+
+    print("O CPF formatado é:", {n1},".", {n2},".", {n3}, "-", {n4})
+
+##----Etapa 5
+
+cpf = input("Digite seu CPF: ")
+
+base = ""
+digitos = ""
+
+for i in range(9):
+    base += cpf[i]
+
+
+for i in range(9,11):
+    digitos += cpf[i]
+
+print("Base:", base)
+print("Dígitos:", digitos)
+
+##----Etapa 6
+
+cpf = input("Digite o CPF: ")
+
+
+if len(cpf) == 14:
+    if cpf[3] == '.' and cpf[7] == '.' and cpf[11] == '-':
+        print("CPF válido\n")
+        
+    else:
+        print("CPF inválido\n")
+
+
+elif len(cpf) == 11 and cpf.isdigit():
+    print("CPF válido\n")
+
+else:
+    print("CPF inválido\n")
+
+##----Etapa 7, só tem em python e esta incompleta
+
+cpf = input("Digite os 9 primeiros dígitos do CPF: ")
+
+if len(cpf) == 9 and cpf.isdigit():
+    soma = 0
+    for i in range(9):
+        soma += int(cpf[i]) * (10 - i)
+
+    resto = soma % 11
+
+    if resto < 2:
+        digito_verificador = 0
+
+    else:
+        digito_verificador = 11 - resto
+
+
+    print(f"Primeiro dígito verificador: {digito_verificador}")
+else:
+    print("CPF inválido. Digite exatamente 9 números.")
+
+##----Etapa 8, nao aguento mais

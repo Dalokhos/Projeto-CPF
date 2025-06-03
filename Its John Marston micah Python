@@ -1,7 +1,7 @@
-##----Etapa 1
+##----Etapa 1----##
 print("111.444.777-35")
 
-##----Etapa 2
+##----Etapa 2----##
 
 print("11144477735")
 cpf1 = 111
@@ -11,7 +11,7 @@ cpf4 = 35
 
 print("O cpf formatado:", cpf1,".", cpf2,".",cpf3,"-",cpf4)
 
-##----Etapa 3
+##----Etapa 3----##
 
 print("Digite cada parte seu cpf: ")
 n1= input()
@@ -27,7 +27,7 @@ n4= input()
 
 print("O cpf formatado é ", n1,".", n2,".", n3,"-", n4)
 
-##----Etapa 4
+##----Etapa 4----##
 
 n1 = int(input("Digite a primeira parte do seu CPF: "))
 
@@ -53,7 +53,7 @@ while n4 <= 0:
 
     print("O CPF formatado é:", {n1},".", {n2},".", {n3}, "-", {n4})
 
-##----Etapa 5
+##----Etapa 5----##
 
 cpf = input("Digite seu CPF: ")
 
@@ -70,7 +70,7 @@ for i in range(9,11):
 print("Base:", base)
 print("Dígitos:", digitos)
 
-##----Etapa 6
+##----Etapa 6----##
 
 cpf = input("Digite o CPF: ")
 
@@ -89,7 +89,7 @@ elif len(cpf) == 11 and cpf.isdigit():
 else:
     print("CPF inválido\n")
 
-##----Etapa 7, só tem em python e esta incompleta
+##----Etapa 7, só tem em python e esta incompleta----##
 
 cpf = input("Digite os 9 primeiros dígitos do CPF: ")
 
@@ -111,7 +111,7 @@ if len(cpf) == 9 and cpf.isdigit():
 else:
     print("CPF inválido. Digite exatamente 9 números.")
 
-##----Etapa 8, nao aguento mais 
+##----Etapa 8, nao aguento mais----##
 
 cpf = input("Digite os 9 primeiros dígitos do CPF: ")
 
@@ -133,7 +133,7 @@ if len(cpf) == 10 and cpf.isdigit():
 else:
     print("CPF inválido. Digite exatamente 9 números.")
 
-##---- Etapa??? a junção da etapa 6,7 e 8 abaixo
+##---- Etapa??? a junção da etapa 6,7 e 8 abaixo----##
 
 cpf = input("Digite o CPF: ")
 
